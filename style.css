@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'press start 2P', sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
@@ -118,3 +118,81 @@ h1 {
   margin-bottom: 2rem;
 }
 
+/* RESPONSIVE STYLES FOR MOBILE */
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .left, .right {
+    width: 90vw;
+  }
+
+  .guess {
+    width: 100%;
+    font-size: 4rem;
+    padding: 1.5rem;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin-bottom: 1.5rem;
+  }
+
+  .number {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 12rem;
+    font-size: 4rem;
+    padding: 2rem 0;
+    margin: 1.5rem auto;
+  }
+
+  .between {
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .again {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+  }
+
+  .label-score, .label-highscore {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}
