@@ -192,6 +192,92 @@ h1 {
     margin-bottom: 1rem;
   }
 
+  @media (max-width: 600px) {
+  /* Set smaller base font size */
+  html {
+    font-size: 50%;
+  }
+
+  /* Stack main content vertically */
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  /* Full width sections */
+  .left, .right {
+    width: 100vw;
+    max-width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  /* Input box full width with smaller font and padding */
+  .guess {
+    width: 100%;
+    font-size: 3.5rem;
+    padding: 1.5rem;
+  }
+
+  /* Buttons full width, smaller font and padding */
+  .btn {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Header title smaller and centered */
+  h1 {
+    font-size: 2.5rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin-bottom: 1rem;
+  }
+
+  /* Number box smaller and centered */
+  .number {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 10rem;
+    font-size: 3.5rem;
+    padding: 1.5rem 0;
+    margin: 1rem auto;
+  }
+
+  /* Positioning fixes for small screen */
+  .between, .again {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+  }
+
+  /* Message and scores smaller font */
+  .message {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .label-score, .label-highscore {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Body padding */
+  body {
+    padding: 1rem;
+  }
+}
+
+
   body {
     padding: 1rem;
   }
