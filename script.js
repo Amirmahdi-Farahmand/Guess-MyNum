@@ -78,6 +78,6 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.guess').value = '';
 
   // Reset styles to default
-  document.querySelector('body').style.backgroundColor = '#222';
+  document.querySelector('body').style.backgroundColor = '#eee';
   document.querySelector('.number').style.width = '15rem';
 });
