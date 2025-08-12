@@ -21,8 +21,8 @@ You can restart the game anytime by clicking the **Again!** button.
 ## Files
 
 - `index.html`: The main HTML page and structure of the game  
-- `gnumStyle.css`: Stylesheet for the game's appearance  
-- `gnumBack.js`: Game logic and user interaction (JavaScript)
+- `style.css`: Stylesheet for the game's appearance  
+- `script.js`: Game logic and user interaction (JavaScript)
 
 ---
 
