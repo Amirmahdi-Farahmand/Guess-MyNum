@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Guess-MyNum
 🔥 Guess My Number – Can you beat the game? A fast-paced guessing challenge built with HTML, CSS, and JS. Play now and prove your luck! 🍀
 =====# Guess My Number
@@ -60,4 +59,4 @@ This game was created by [Amir Farahmand].
 ---
 
 Thank you for trying out my game!
->>>>>>> 3ade1e6 (Add README)
+
