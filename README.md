@@ -1,14 +1,14 @@
-# Guess-MyNum
-🔥 Guess My Number – Can you beat the game? A fast-paced guessing challenge built with HTML, CSS, and JS. Play now and prove your luck! 🍀
+# 🔥 Guess My Number
+Can you beat the game? A fast-paced guessing challenge built with HTML, CSS, and JS. Play now and prove your luck! 🍀
 
-# Guess My Number
+---
 
-A simple number guessing game built with HTML, CSS, and JavaScript.
+## Play Online
+Try the game in your browser: [Play Guess My Number](https://Amirmahdi-Farahmand.github.io/Guess-MyNum/)
 
 ---
 
 ## About The Game
-
 In this game, you need to guess a number between 1 and 20.  
 Each time you enter a number and press the **Check** button, the game tells you whether your guess is too high or too low.  
 If you guess correctly, you win and the background turns green!  
@@ -20,23 +20,20 @@ You can restart the game anytime by clicking the **Again!** button.
 ---
 
 ## Files
-
-- `index.html`: The main HTML page and structure of the game  
-- `style.css`: Stylesheet for the game's appearance  
-- `script.js`: Game logic and user interaction (JavaScript)
+- `index.html` – Main HTML page and structure of the game  
+- `style.css` – Stylesheet for the game's appearance  
+- `script.js` – Game logic and user interaction (JavaScript)
 
 ---
 
 ## How to Play
-
-Open the `index.html` file in any web browser.  
-Enter a number between 1 and 20, then press the **Check** button or hit the **Enter** key.  
-To restart the game, click the **Again!** button.
+1. Open the `index.html` file in any web browser **or** use the online link above.  
+2. Enter a number between 1 and 20, then press the **Check** button or hit **Enter**.  
+3. To restart the game, click the **Again!** button.
 
 ---
 
 ## Features
-
 - Simple and user-friendly design  
 - Helpful messages guide the player  
 - Stores the highest score (highscore)  
@@ -46,7 +43,6 @@ To restart the game, click the **Again!** button.
 ---
 
 ## Technologies Used
-
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)
@@ -54,10 +50,9 @@ To restart the game, click the **Again!** button.
 ---
 
 ## Author
-
-This game was created by [Amir Farahmand].
+Created by [Amir Farahmand](https://github.com/Amirmahdi-Farahmand).
 
 ---
 
-Thank you for trying out my game!
-
+Thank you for trying out my game!  
+Have fun and good luck! 🍀
